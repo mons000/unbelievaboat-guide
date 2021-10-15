@@ -1,0 +1,22 @@
+----------------------------
+UnbelievaBoat Guide
+----------------------------
+- Economy - 
+----------------------------
+1. Setting Up
+----------------------------
+!set-start-balance <amount> (gives the specified amount to new server users)
+!money-audit-log <enable/disable> #channel
+!set-currency-symbol :emoji: (sets the specified emoji as currency symbol) example. (https://a.pomf.cat/cajtga.jpg)
+!role-income add/remove <role> bank/cash <amount> <interval> example. !role-income add @role bank 1000 24h
+----------------------------
+2. Adding money, resetting money etc.
+----------------------------
+!add-money bank/cash <member> <amount> (adds the specified amount of money for a user)
+!add-money-role cash/bank @role <amount>
+!remove-money cash/bank <member>
+!remove-money-role cash/bank @role <amount>
+----------------------------
+More things soon.
+May post an advanced guide too.
+
